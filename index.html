@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link href="./normalize.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link href="./hamburgers.css" rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="./ejercicioPractico5.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="main__title">Ejercicios del DOM</h1>
+  </header>
+  <aside class="aside">
+    <nav class="nav nav--hide" id="nav">
+      <a href="#section-1" class="nav__link">Sección 1</a>
+      <a href="#section-2" class="nav__link">Sección 2</a>
+      <a href="#section-3" class="nav__link">Sección 3</a>
+      <a href="#section-4" class="nav__link">Sección 4</a>
+      <a href="#section-5" class="nav__link">Sección 5</a>
+    </nav>
+    <div class="burger-menu" id="hamburger">
+      <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <div class="to-top to-top--hide">
+      <button class="to-top-btn" id="to-top-btn" type="button"><i class="fa-solid fa-arrow-up" id="to-top-btn-i"></i></button>
+      <!-- <a href="#section-1" class="to-top__link"></a>       -->
+    </div>
+  </aside>
+  <main class="main">
+    <section class="section section-1" id="section-1">
+      <h2 class="section__title">
+        Seccion 1
+      </h2>
+    </section>
+
+    <section class="section section-2" id="section-2">
+      <h2 class="section__title">
+        Seccion 2
+      </h2>
+    </section>
+
+    <section class="section section-3" id="section-3">
+      <h2 class="section__title">
+        Seccion 3
+      </h2>
+    </section>
+
+    <section class="section section-4" id="section-4">
+      <h2 class="section__title">
+        Seccion 4
+      </h2>
+    </section>
+
+    <section class="section section-5" id="section-5">
+      <h2 class="section__title">
+        Seccion 5
+      </h2>
+    </section>
+
+  </main>
+  <script src="./ejercicioPractico5.js"></script>
+</body>
+</html>
